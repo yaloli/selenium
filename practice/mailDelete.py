@@ -1,10 +1,6 @@
-from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
 import time
-
 import naverLogin2
+from selenium.webdriver.common.by import By
 
 url = "https://mail.naver.com/"
 driver = naverLogin2.driver
